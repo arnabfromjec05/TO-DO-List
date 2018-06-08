@@ -1,0 +1,72 @@
+body{
+	font-family: 'Jua';
+background: #1c92d2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fa-plus{
+	float:right;
+}
+
+.fa-plus:hover{
+	color:yellow;
+}
+
+div{
+	width:400px;
+	margin:50px auto;
+	border: 1px solid black;
+	background-color: #f7f7f7;
+}
+
+h1{
+	color:white;
+	/*text-align: center;*/
+	margin:0px;
+	height: 40px;
+	background: #5b73ad;
+	padding:10px 20px;
+	font-weight: normal;
+}
+
+input {
+    margin: 0px;
+    width: -webkit-fill-available;
+    height: 30px;
+    padding:5px 20px;
+    background:#f7f7f7; 
+}
+
+input:focus{
+	background: white;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+li{
+	padding:5px 20px 5px;
+	height: 30px;
+	background: white;
+	box-sizing: border-box;
+}
+
+li:nth-child(2n){
+	background: #f7f7f7;
+	width: 100%;
+}
+
+span{
+	color:red;
+	height: 30px;
+	text-align: center;
+	margin-right: 20px;
+}
+.strike{
+	color: grey;
+	text-decoration: line-through;
+}
